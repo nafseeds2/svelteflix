@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --foreground: #ffffff;  }
+}
+
+@layer base {
+  * {
+    @apply box-border font-sans;
+  }
+  body {
+    @apply bg-fixed bg-neutral-950 from-neutral-900 to-neutral-950 text-gray-400;
+    background-image: radial-gradient(at center top, var(--tw-gradient-stops));
+  }
+}
