@@ -5,7 +5,7 @@
 	let { children } = $props();
 </script>
 
-<section class="mx-auto w-full max-w-4xl">
+<header class="mx-auto w-full max-w-4xl">
 	<nav class="flex items-center justify-between py-3">
 		<span>
 			<a href="/" class="text-primary hover:text-primary-light">
@@ -18,7 +18,10 @@
 			<a href="/about" class="text-primary hover:text-primary-light">Logout</a>
 		</span>
 	</nav>
-</section>
+</header>
 <main class="mx-auto w-full max-w-4xl">
 	{@render children()}
 </main>
+<footer class="mx-auto w-full max-w-4xl">
+&copy; Copyright 2025
+</footer>
